@@ -8,14 +8,17 @@ body, html {
     border-color: pink;
     border-style: solid;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     color: blue;
 }
 
-div .box {
-    height: 100%;
+.row {
+    display: flex;
     flex: 1;
-    flex-wrap: wrap;
+}
+
+.row div {
+    flex: 1;
     border-style: solid;
     border-color: black;
 }
