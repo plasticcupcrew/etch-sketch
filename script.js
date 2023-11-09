@@ -16,4 +16,8 @@ for (let i = 1; i<=16; i++) {
 }
 
 let grid = document.querySelectorAll(".box");
-console.log(grid.length);
+console.log(grid[0]);
+
+for (let i = 0; i < grid.length; i++) {
+    grid[i].addEventListener('mouseenter', () => grid[i].classList.add("colored"));
+}

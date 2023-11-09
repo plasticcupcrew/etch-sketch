@@ -19,3 +19,7 @@ body, html {
     border-style: solid;
     border-color: black;
 }
+
+.colored {
+    background-color: black;
+}
