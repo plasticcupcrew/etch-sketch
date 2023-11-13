@@ -3,8 +3,8 @@ body, html {
 }
 
 .container {
-    height: 900px;
-    width: 900px;
+    height: 300px;
+    width: 300px;
     border-color: pink;
     border-style: solid;
     display: flex;
